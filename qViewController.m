@@ -15,10 +15,12 @@
 
 @implementation qViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString *fullURL = @"http://media.oxafemble.me/games/";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_viewWeb loadRequest:requestObj];
 }
 
 - (void)didReceiveMemoryWarning
