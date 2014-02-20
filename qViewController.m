@@ -9,6 +9,7 @@
 #import "qViewController.h"
 
 @interface qViewController ()
+@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
 
 @end
 
