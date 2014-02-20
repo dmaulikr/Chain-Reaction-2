@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *fullURL = @"http://oxafemble.me";
+    NSString *fullURL = @"http://iosmedia.oxafemble.me/games/chainreaction"; // I really should upload the files soon.
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
